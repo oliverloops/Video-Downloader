@@ -1,2 +1,2 @@
-# Video-Downloader :grimacing:
-A YouTube video downloader based on Node.js :laptop:
+# :grimacing: Video-Downloader :grimacing:
+A YouTube video downloader based on Node.js :computer:
