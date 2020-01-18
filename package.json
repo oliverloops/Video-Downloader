@@ -1,0 +1,24 @@
+{
+  "name": "video_downloader",
+  "version": "1.0.1",
+  "description": "Youtube Video Downloader",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "VIDEO",
+    "DOWNLOADER"
+  ],
+  "author": "Oliver ALR",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ytdl-core": "^1.0.6"
+  }
+}
