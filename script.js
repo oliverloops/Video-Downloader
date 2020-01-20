@@ -6,6 +6,7 @@ downloadBtn.addEventListener('click', () => {
     sendURL(URLinput.value);
 });
 
+//This is the function that sends the query string trough the server
 const sendURL = (URL) => {
     window.location.href = `http://localhost:8080/download?URL=${URL}`;
 };
