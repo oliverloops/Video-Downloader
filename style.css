@@ -34,13 +34,11 @@
     cursor: pointer;
 }
 
-.convert-button:hover {
-    animation: colorfade 1.2s ease-in; 
-}
+/*.convert-button:hover {background-color: ;}*/
 
-@keyframes colorfade {
+/*@keyframes colorfade {
     0% { background-color: rgb(146, 230, 38); border: 2px solid rgb(146, 230, 38);}
     50% { background-color: rgb(99, 30, 228); border:  2px solid rgb(99, 30, 228);}
     100% { background-color: rgb(238, 46, 78); border:  2px solid rgb(238, 46, 78);}
-}
+}*/
 
