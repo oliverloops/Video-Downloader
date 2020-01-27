@@ -1,6 +1,7 @@
 //::Trying ytdl-core npm module::
 'use strict';
 
+//Required Modules 
 const 
 express = require('express'),
 cors = require('cors'),
@@ -13,7 +14,7 @@ let port = process.env.PORT || 8080;
 hbs.registerPartials('__dirname' + '/src/views');
 app.set('view engine', 'hbs');
 
-//Middleware
+//Middleware :configure handlebars:
 app.use(cors());
 app.use(express.static(__dirname + '/src'));
 
@@ -37,5 +38,6 @@ app.get('/', (req, res) => {
    res.render('index');
 });
 
+//Server Listener
 app.listen(port, () => console.log(`Server runing at port: ${port}`));
 
