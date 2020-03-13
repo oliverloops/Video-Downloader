@@ -16,6 +16,7 @@ class Convert {
 const downloadBtn = document.querySelector('.convert-button');
 const URLinput = document.querySelector('.URL-input');
 
+//Convert instantiation
 let convert = new Convert(URLinput.value);
 
 downloadBtn.addEventListener('click', () => {
